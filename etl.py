@@ -73,8 +73,8 @@ def run_etl(file_clients, file_transactions, db_name, user, password):
             load(transformed_transactions, db_name, 'transactions', user, password)
 
 if __name__ == "__main__":
-    file_clients = 'C:/Users/kifahnaim/Desktop/etlprojectpython/clients.csv'
-    file_transactions = 'C:/Users/kifahnaim/Desktop/etlprojectpython/transactions.xlsx'
+    file_clients = 'C:/Users/kifahnaim/Desktop/etlprojectpython/neo_etl/clients.csv'
+    file_transactions = 'C:/Users/kifahnaim/Desktop/etlprojectpython/neo_etl/transactions.xlsx'
     
     database_name = 'postgres'
     user = 'postgres'
